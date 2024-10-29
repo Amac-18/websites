@@ -1,0 +1,47 @@
+/* styles.css */
+
+div,li,h1,a{
+    color: rgb(136, 1, 1);
+    background-color: transparent;
+  }
+
+  p {
+    color: rgb(244, 106, 7);
+    text-align:justify;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+    }
+
+img { margin: 5%; /*This can change the image size*/
+  }
+  
+html{ background-color: rgb(0, 0, 0); /*This can change the background color of your webpage*/
+
+}
+
+/* This is the syntax for CSS: selector{property:value;}*/
+/* This is the universal selector "*" */
+/*<div> is the void (empty container) */
+/*Class selectors syntax-- <div class="alert-text"> */
+/*Class selector style syntax-- .alert-tax{color: red;}*/
+/*a period is usually followed right behind case sensitve values of a class attribute*/
+/*A element can only have one ID while it can have multiple elements
+EX: <div id="title">
+    <div class="alert-text" */
+/*With ID a "#" is used right after the ID attribute 
+Ex: #title{background-color: red; ID's should be usd sparingly 
+if used at all*/
+/*If a group shares the same attribute/class it can be seperated like this  .read,
+.unread { color: red; background-color: blue;} both would still end with a semi-colon ";"*/
+/* A descendant combinator, is represented in CSS by a single space between selectors.
+Ex: .ancestor .contents {} A descendant combinator will only cause elements that match the last selector to be 
+selected if they also have an ancestor (parent, grandparent, etc.) that matches the previous selector.
+To put it simply "child" will only be selected if its nested in the "ancestor" */
+/*The property "color" & "background" can accept "rgb (100,0,127)
+hsl (15,82%,56%) or even just hex (#1100ff);*/
+/*Font-family: can be single value EX: serif or "Times New Roman"
+font-size: affects the size ex 22px  
+font-weight: affects the boldness it can be just the word "bold" or a # 
+between 1 & 1000. 700=bold
+text-align: will align the text ex center
+A img element height and width value will be the same as the actual
+image height and width. the "auto" value could also be used for height to keep image porportions*/
